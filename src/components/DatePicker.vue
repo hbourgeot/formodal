@@ -6,7 +6,7 @@
         <q-popup-proxy cover transition-show="scale" transition-hide="scale">
           <q-date v-model="dateData" :options="options" :mask="mask">
             <div class="row items-center justify-end">
-              <q-btn v-close-popup label="Cerrar" color="secondary" flat></q-btn>
+              <q-btn v-close-popup label="Close" color="secondary" flat></q-btn>
             </div>
           </q-date>
         </q-popup-proxy>
@@ -18,7 +18,7 @@
 <script setup lang="ts">
 
 import { computed } from 'vue';
-import moment from "moment/moment";
+import moment from "moment";
 
 const emit = defineEmits(['update:inputDataProp'])
 
