@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
+    "moment": "^2.29.4",
     "quasar": "^2.14.0",
     "vue": "^3.3.8"
   }
