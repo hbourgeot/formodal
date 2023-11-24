@@ -1,0 +1,14 @@
+{
+  "name": "ForModal",
+  "version": "0.1.0",
+  "description": "First Version of the Quasar ForModal",
+  "main": "index.js",
+  "repository": "https://github.com/hbourgeot/formodal",
+  "author": "Henrry Bourgeot",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "quasar": "^2.14.0",
+    "vue": "^3.3.8"
+  }
+}
